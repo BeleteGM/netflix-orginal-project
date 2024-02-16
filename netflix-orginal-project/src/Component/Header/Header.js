@@ -2,7 +2,11 @@ import React from 'react';
 import netflixlogo from '../../images/Home/Netflix_Logo_PMS (3) copy.png'
 const Header = () => {
   return (
-    <div className='flex justify-between items-center p-4 w-full z-[100] absolute bg-black-600 text-white-300'>
+    
+<>
+
+<br/>
+    <div className='flex justify-between items-center p-4 w-full z-[100] bg-black-600 text-white-300 fixed'>
         <div className='text-white-600 text-3xl cursor-pointer'><img src={netflixlogo} className='w-40' alt='netflex logo' />
         </div>
         {/* <div className='text-blue-100 text-lg  cursor-pointer'>Home </div>
@@ -23,6 +27,7 @@ const Header = () => {
 
       
     </div>
+    </>
   );
 }
 
